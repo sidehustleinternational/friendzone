@@ -1,0 +1,22 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="#FFFFFF"/>
+  
+  <!-- Zone rings (subtle gray) -->
+  <circle cx="512" cy="512" r="400" fill="none" stroke="#E8E8E8" stroke-width="3" opacity="0.6"/>
+  <circle cx="512" cy="512" r="320" fill="none" stroke="#E8E8E8" stroke-width="3" opacity="0.6"/>
+  <circle cx="512" cy="512" r="240" fill="none" stroke="#E8E8E8" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Location pin (red) -->
+  <g transform="translate(512, 380)">
+    <!-- Pin body -->
+    <path d="M 0,-180 C -80,-180 -145,-115 -145,-35 C -145,45 0,180 0,180 C 0,180 145,45 145,-35 C 145,-115 80,-180 0,-180 Z" 
+          fill="#FF5A5F"/>
+    
+    <!-- Pin inner circle (white) -->
+    <circle cx="0" cy="-35" r="55" fill="#FFFFFF"/>
+    
+    <!-- Pin center dot (red) -->
+    <circle cx="0" cy="-35" r="25" fill="#FF5A5F"/>
+  </g>
+</svg>

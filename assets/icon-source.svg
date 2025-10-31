@@ -1,0 +1,17 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- White background -->
+  <rect width="1024" height="1024" fill="#ffffff"/>
+  
+  <!-- Blue circle (zone) -->
+  <circle cx="512" cy="512" r="380" fill="#1E90FF" opacity="0.15"/>
+  <circle cx="512" cy="512" r="320" fill="#1E90FF" opacity="0.2"/>
+  <circle cx="512" cy="512" r="260" fill="#1E90FF" opacity="0.25"/>
+  <circle cx="512" cy="512" r="200" fill="#1E90FF" opacity="0.3"/>
+  
+  <!-- Red location pin (centered, larger) -->
+  <g transform="translate(512, 512) scale(5.0) translate(-256, -256)">
+    <path d="M256 100c-50 0-90 40-90 90 0 60 90 160 90 160s90-100 90-160c0-50-40-90-90-90z" fill="#FF5A5F"/>
+    <!-- White circle in pin -->
+    <circle cx="256" cy="190" r="30" fill="white"/>
+  </g>
+</svg>

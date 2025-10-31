@@ -1,0 +1,100 @@
+{
+  "expo": {
+    "name": "FriendZone",
+    "slug": "FriendZone",
+    "version": "4.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "friendzone",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F8F9FA"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.jamiegoldstein.FriendZone",
+      "buildNumber": "297",
+      "config": {
+        "marketingUrl": "https://jamiegoldstein.github.io/homer",
+        "supportUrl": "https://jamiegoldstein.github.io/homer"
+      },
+      "backgroundModes": [
+        "location",
+        "background-processing",
+        "remote-notification"
+      ],
+      "infoPlist": {
+        "NSContactsUsageDescription": "FriendZone needs access to your contacts to help you find and add friends to share your location with.",
+        "NSLocationWhenInUseUsageDescription": "FriendZone shares your location with friends when you're in shared zones. Choose 'While Using App' for location sharing only when the app is open, or 'Always' for automatic zone notifications.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Choose 'Always' for zone arrival notifications and proximity alerts (recommended), or 'While Using App' for location sharing only when the app is open. You can change this anytime in Settings.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "associatedDomains": [
+        "applinks:homer-323fe.firebaseapp.com"
+      ],
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION"
+      ],
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ea0e5058-d48d-4ac6-8f82-d8972430f6cd"
+      },
+      "firebaseApiKey": "$FIREBASE_API_KEY",
+      "firebaseAuthDomain": "$FIREBASE_AUTH_DOMAIN",
+      "firebaseProjectId": "$FIREBASE_PROJECT_ID",
+      "firebaseStorageBucket": "$FIREBASE_STORAGE_BUCKET",
+      "firebaseMessagingSenderId": "$FIREBASE_MESSAGING_SENDER_ID",
+      "firebaseAppId": "$FIREBASE_APP_ID",
+      "googleMapsApiKey": "$GOOGLE_MAPS_API_KEY",
+      "appleServicesId": "$APPLE_SERVICES_ID"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-font",
+      "expo-web-browser",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "FriendZone shares your location with friends when you're in shared zones. Choose 'Always' for automatic zone notifications (recommended).",
+          "isIosBackgroundLocationEnabled": true
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "sounds": [],
+          "icon": "./assets/icon.png",
+          "color": "#FF5A5F",
+          "mode": "production"
+        }
+      ]
+    ],
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ea0e5058-d48d-4ac6-8f82-d8972430f6cd"
+    }
+  }
+}

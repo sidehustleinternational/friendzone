@@ -1,0 +1,8 @@
+{
+  "name": "friendzone-scripts",
+  "version": "1.0.0",
+  "description": "Admin scripts for FriendZone",
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  }
+}
