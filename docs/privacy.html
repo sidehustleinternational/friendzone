@@ -7,9 +7,9 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
+            line-height: 1.8;
             color: #333;
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 20px;
             background: #f8f9fa;
@@ -17,7 +17,7 @@
         
         .container {
             background: white;
-            padding: 2rem;
+            padding: 3rem;
             border-radius: 10px;
             box-shadow: 0 2px 20px rgba(0,0,0,0.1);
         }
@@ -25,91 +25,179 @@
         h1 {
             color: #667eea;
             text-align: center;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
         }
         
         h2 {
-            color: #333;
-            margin-top: 2rem;
+            color: #667eea;
+            margin-top: 2.5rem;
             margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+        
+        h3 {
+            color: #333;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            font-size: 1.3rem;
         }
         
         .last-updated {
             text-align: center;
             color: #666;
             font-style: italic;
-            margin-bottom: 2rem;
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
         }
         
-        .contact {
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        ul {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+        
+        li {
+            margin: 0.5rem 0;
+        }
+        
+        .contact-box {
             background: #f8f9fa;
-            padding: 1rem;
-            border-radius: 5px;
+            padding: 1.5rem;
+            border-radius: 8px;
             margin-top: 2rem;
+            border-left: 4px solid #667eea;
         }
         
         a {
             color: #667eea;
         }
+        
+        hr {
+            border: none;
+            border-top: 2px solid #e0e0e0;
+            margin: 2rem 0;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🏠 FriendZone Privacy Policy</h1>
-        <p class="last-updated">Last updated: October 13, 2024</p>
+        <a href="index.html" class="back-link">← Back to Home</a>
         
-        <h2>Overview</h2>
-        <p>FriendZone is designed with privacy at its core. We believe your location data should remain under your control, shared only with people you choose and only in places you designate.</p>
+        <h1>Privacy Policy for FriendZone</h1>
+        <p class="last-updated">Last Updated: November 1, 2024</p>
+        
+        <h2>Introduction</h2>
+        <p>FriendZone ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.</p>
         
         <h2>Information We Collect</h2>
-        <p><strong>Location Data:</strong> We collect your location only when you're within zones you've created or zones friends have shared with you. Location data is never collected outside of these designated areas.</p>
         
-        <p><strong>Contact Information:</strong> We store your phone number and email address to enable friend connections and account management.</p>
+        <h3>Location Data</h3>
+        <ul>
+            <li><strong>Real-time location:</strong> We collect your GPS coordinates when you're at designated zones</li>
+            <li><strong>Location history:</strong> We store your location history for up to 30 days</li>
+            <li><strong>Zone information:</strong> We track which zones you've visited and when</li>
+        </ul>
         
-        <p><strong>Friend Connections:</strong> We store information about your friend relationships and shared zones to enable the core functionality of the app.</p>
+        <h3>Personal Information</h3>
+        <ul>
+            <li><strong>Phone number:</strong> Used for account creation and friend connections</li>
+            <li><strong>Name:</strong> Provided during sign-up</li>
+            <li><strong>Apple Sign-In data:</strong> Email (if provided) and user ID</li>
+        </ul>
+        
+        <h3>Usage Data</h3>
+        <ul>
+            <li><strong>Friend connections:</strong> Who you're connected with</li>
+            <li><strong>Zone memberships:</strong> Which zones you've joined or created</li>
+            <li><strong>App interactions:</strong> How you use the app features</li>
+        </ul>
         
         <h2>How We Use Your Information</h2>
+        <p>We use your information to:</p>
         <ul>
-            <li>Share your location with friends only within zones you've mutually agreed to share</li>
-            <li>Send notifications when friends arrive at shared zones</li>
-            <li>Enable friend discovery through phone numbers</li>
-            <li>Provide customer support when requested</li>
+            <li>Share your location with friends when you're at designated zones</li>
+            <li>Notify friends when you arrive at or leave zones</li>
+            <li>Enable friend connections and zone sharing</li>
+            <li>Improve app functionality and user experience</li>
+            <li>Comply with legal obligations</li>
         </ul>
         
-        <h2>Information Sharing</h2>
-        <p>We do not sell, trade, or share your personal information with third parties except:</p>
+        <h2>Data Sharing</h2>
+        <p><strong>We do NOT:</strong></p>
         <ul>
-            <li>With friends you've explicitly connected with, and only within shared zones</li>
-            <li>When required by law or to protect our rights</li>
-            <li>With service providers who help us operate the app (like Firebase for data storage)</li>
+            <li>Sell your data to third parties</li>
+            <li>Share your location with anyone except your approved friends</li>
+            <li>Track your location outside of designated zones (when sharing is set to "Current Zone Only")</li>
         </ul>
         
-        <h2>Your Control</h2>
-        <p>You have complete control over your data:</p>
+        <p><strong>We only share your data:</strong></p>
         <ul>
-            <li>Create and delete zones at any time</li>
-            <li>Add or remove friends from zones</li>
-            <li>Delete your account and all associated data</li>
-            <li>Control location sharing permissions through your device settings</li>
+            <li>With friends you've explicitly connected with</li>
+            <li>When you're at zones you've chosen to share</li>
+            <li>As required by law</li>
         </ul>
         
         <h2>Data Security</h2>
-        <p>We use industry-standard security measures to protect your data, including encryption in transit and at rest. Your location data is stored securely and accessed only when necessary to provide app functionality.</p>
+        <p>We implement security measures including:</p>
+        <ul>
+            <li>Encryption of location data in transit and at rest</li>
+            <li>Secure authentication via Apple Sign-In</li>
+            <li>Firestore security rules to protect your data</li>
+            <li>Regular security audits</li>
+        </ul>
+        
+        <h2>Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li>Access your personal data</li>
+            <li>Delete your account and all associated data</li>
+            <li>Control which friends see your location</li>
+            <li>Choose which zones to share</li>
+            <li>Opt out of location sharing at any time</li>
+        </ul>
         
         <h2>Data Retention</h2>
-        <p>We retain your data only as long as your account is active. When you delete your account, we remove all personal data including location history, friend connections, and zones.</p>
+        <ul>
+            <li><strong>Location data:</strong> Automatically deleted after 30 days</li>
+            <li><strong>Account data:</strong> Retained until you delete your account</li>
+            <li><strong>Friend connections:</strong> Retained until you remove the connection</li>
+        </ul>
         
         <h2>Children's Privacy</h2>
-        <p>FriendZone is not intended for children under 13. We do not knowingly collect personal information from children under 13.</p>
+        <p>FriendZone is not intended for users under 13 years of age. We do not knowingly collect data from children under 13.</p>
         
         <h2>Changes to This Policy</h2>
-        <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy in the app and updating the "last updated" date.</p>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last Updated" date.</p>
         
-        <div class="contact">
+        <h2>California Privacy Rights</h2>
+        <p>California residents have additional rights under CCPA. Contact us to exercise these rights.</p>
+        
+        <hr>
+        
+        <div class="contact-box">
             <h2>Contact Us</h2>
-            <p>If you have questions about this privacy policy or how we handle your data, please contact us:</p>
-            <p>Email: <a href="mailto:support@friendzone.app">support@friendzone.app</a></p>
+            <p>If you have questions about this Privacy Policy, please contact us at:</p>
+            <ul>
+                <li>Email: <a href="mailto:privacy@friendzone.app">privacy@friendzone.app</a></li>
+                <li>Website: <a href="https://sidehustleinternational.github.io/friendzone/">https://sidehustleinternational.github.io/friendzone/</a></li>
+            </ul>
         </div>
+        
+        <p style="text-align: center; margin-top: 3rem; color: #666; font-style: italic;">
+            By using FriendZone, you agree to this Privacy Policy.
+        </p>
     </div>
 </body>
 </html>
